@@ -93,8 +93,28 @@ footer {
     text-align: center;
     font-weight: bold;
 }
+article.kunjungi{
+    height: 50px;
+    padding: 0;
+    border-radius: 15px;
+    overflow: hidden;
 
-@media screen and (max-width: 1000px) {
+}
+button.maker{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: #00c8eb;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 5px;
+    transition: .3s;
+}
+button.maker:hover{
+    background: #00a2c6;
+}
+
+@media screen and (max-width: 1200px) {
     #content,
     aside{
         width: 100%;
